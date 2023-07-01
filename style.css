@@ -16,12 +16,11 @@ body {
     flex-direction: row;
     align-items: stretch;
     overflow: hidden;
-    min-width: 600px;
+    min-width: 650px;
     max-width: 650px;
     width: calc(100% - 100px);
     height: 400px;
   }
-
   
   .box1 {
     position: relative;
@@ -591,8 +590,23 @@ body {
     transition-delay: .1s;
   }
   
-  
-  .box5 .label .info .sub {
-    transition-delay: .1s;
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
+  .social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+  }
+  
+  .social-icons img {
+    width: 40px;
+    height: 40px;
+  }
