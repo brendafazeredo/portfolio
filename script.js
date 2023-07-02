@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
 
-    // Open the first box by default
     if (index === 0) {
       box.classList.add('active');
     }
@@ -23,6 +22,8 @@ document.addEventListener('DOMContentLoaded', function() {
     var link = document.createElement("a");
 
     link.href = fileUrl;
+
+    link.setAttribute("target", "_blank");
 
     link.setAttribute("download", "resume.pdf");
 
