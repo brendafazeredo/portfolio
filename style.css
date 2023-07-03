@@ -259,14 +259,14 @@ button {
 .mode {
   display: flex;
   justify-content: center;
-  margin: 10px;
+  margin: 8px;
   margin-top: 8px;
   display: flex;
   justify-content: center;
 }
 
 .mode a {
-  margin: 10px;
+  margin: 7px;
 }
 
 .mode img {
